@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.login-page, .registration-page, .me {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.me__profile {
+  background: #FFFFFF;
+  max-width: 360px;
+  //margin: 0 auto 100px;
+  text-align: left;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);  
+}
+.me__property {
+  border-top:1px solid #dadce0;
+  background: rgba(0, 0, 0, 0.0);
+}
+.me__property:hover {
+  border-top:1px solid #dadce0;
+  background: rgba(0, 0, 0, 0.04);
+}
+.me__property#lastProp:hover {
+  border-top:1px solid #dadce0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: rgba(0, 0, 0, 0.04);
+
+}
+.me__property > p {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 25px;
+  font-size: 14px;
+}
+.me__property p:hover {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 25px;
+  font-size: 14px;
+}
+.first {
+  font-size: 13px;
+}
+.me__profile h2 {
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+}
+.me__profile hr {
+  border: none; /* Убираем границу */
+  background-color: #dadce0; /* Цвет линии */
+  color: #dadce0; /* Цвет линии для IE6-7 */
+  height: 0.5px; /* Толщина линии */
+}
+.me {
+  margin-top: 5%;
+  padding: 0;
+  position: relative;
+}
+.me button {
+  position: absolute;
+  margin-top: 5%;
+  margin-right: 5%;
+  right: 0;
+  top: 0;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4272d7;
+  width: 25%;
+  border: 0;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 13px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.me button:hover {
+  background: #3661be;
+}
+form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
+}
+form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+form h2 {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4272d7;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+form button:hover,form button:active,form button:focus {
+  background: #3661be;
+}
+body {
+  background: rgb(235, 235, 255);
+  font-family: "Roboto", sans-serif;     
+}
